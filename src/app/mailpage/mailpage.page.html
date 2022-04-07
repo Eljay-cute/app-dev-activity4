@@ -1,5 +1,5 @@
 <ion-header> 
-<ion-toolbar color="danger">
+<ion-toolbar color="warning">
     <ion-icon name="arrow-back-circle-outline" slot="start" size="large"(click)="back()"></ion-icon>
   <ion-title><p align="center">Inbox</p></ion-title>
 </ion-toolbar>
@@ -8,6 +8,6 @@
   <div class="send">
     
   <ion-input placeholder="send message.." class="input"text-right id="input" [(ngModel)]="inputValue"></ion-input>
-  <ion-button class="button">Send<ion-icon name="send" slot="end" size="large"(click)="back()"></ion-icon></ion-button>
+  <ion-button class="button" color="warning">Send<ion-icon name="send" slot="end" size="large"(click)="back()"></ion-icon></ion-button>
 </div>
 </ion-content>

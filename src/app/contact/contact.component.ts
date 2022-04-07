@@ -9,8 +9,8 @@ import { Router } from '@angular/router';
 export class  ContactComponent {
 
   contactlist  = [
-    {id: 1, name: 'Vin', email: 'panalmarvin791@gmail.com'  ,number: '09954715520'},
-    {id: 2, name: 'vinpanal', email: 'marvin.indita@evsu.edu.ph'  ,number: '09090869081'},
+    {id: 1, name: 'Liza Jean', email: 'lizajean@gmail.com'  ,number: '09968948932'},
+    {id: 2, name: 'Lj', email: 'lizajean.llorag@evsu.edu.ph'  ,number: '09123456789'},
    
   ]
   constructor(public alertController: AlertController,public router: Router) {
